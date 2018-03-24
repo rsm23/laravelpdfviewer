@@ -1,0 +1,27 @@
+{
+    "name": "rsm23/laravelpdfviewer",
+    "description": "A Laravel 5 Package for viewing PDF files",
+    "require": {
+        "laravel/framework": "~5.5.0"
+    },
+    "minimum-stability": "stable",
+    "keywords": ["laravel","pdf-viewer","laravel-viewerJS","ViewerJS"],
+    "authors": [
+        {
+            "name": "Rahmani Saif El Moulouk",
+            "email": "hire@saifelmoulouk.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rahmani\\LaravelPdfViewer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rahmani\\LaravelPdfViewer\\LaravelPdfViewerServiceProvider"
+            ]
+        }
+    }
+}
