@@ -24,7 +24,7 @@ class LaravelPdfViewerServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '../laraview' => public_path('public'),
+            __DIR__ . '../laraview' => public_path('/vendor/pdfviewer'),
         ], 'public');
     }
 
